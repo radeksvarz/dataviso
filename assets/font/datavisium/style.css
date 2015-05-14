@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'datavisium';
-	src:url('fonts/datavisium.eot?-eiz8z7');
-	src:url('fonts/datavisium.eot?#iefix-eiz8z7') format('embedded-opentype'),
-		url('fonts/datavisium.woff?-eiz8z7') format('woff'),
-		url('fonts/datavisium.ttf?-eiz8z7') format('truetype'),
-		url('fonts/datavisium.svg?-eiz8z7#datavisium') format('svg');
+	src:url('fonts/datavisium.eot?-bz2sdv');
+	src:url('fonts/datavisium.eot?#iefix-bz2sdv') format('embedded-opentype'),
+		url('fonts/datavisium.woff?-bz2sdv') format('woff'),
+		url('fonts/datavisium.ttf?-bz2sdv') format('truetype'),
+		url('fonts/datavisium.svg?-bz2sdv#datavisium') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -21,10 +21,6 @@
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-}
-
-.icon-menu:before {
-	content: "\e608";
 }
 
 .icon-maintenance:before {
@@ -57,5 +53,21 @@
 
 .icon-slash:before {
 	content: "\e604";
+}
+
+.icon-menu:before {
+	content: "\e608";
+}
+
+.icon-tags:before {
+	content: "\e936";
+}
+
+.icon-link:before {
+	content: "\ea7e";
+}
+
+.icon-pdf:before {
+	content: "\eada";
 }
 

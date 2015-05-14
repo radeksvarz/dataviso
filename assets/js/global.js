@@ -3,7 +3,7 @@ $(function () {
         var reserve = 0;
         var animationTime;
         e.preventDefault();
-        if ($($(this).attr('href')).length == 0) alert('TODO - kam se ma posunout??');
+        if ($($(this).attr('href')).length == 0) return true;
         animationTime = ($('nav ul').hasClass('show')) ? 0 : 300;
         $('nav ul').removeClass('show');
         $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top - reserve }, animationTime);
